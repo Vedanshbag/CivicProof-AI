@@ -1,0 +1,1 @@
+export default function Admin(){return <main className="p-6"><h1 className="text-3xl font-bold mb-4">Admin Panel</h1><div className="grid md:grid-cols-2 gap-4"><div className="glass rounded-xl p-4">Flagged Uploads Queue</div><div className="glass rounded-xl p-4">Organization Trust Analytics</div></div></main>}

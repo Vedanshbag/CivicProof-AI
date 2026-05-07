@@ -1,0 +1,3 @@
+import UploadDropzone from "@/components/upload/UploadDropzone";
+const cards=["Trust Score","Authenticity Score","Community Impact"]; 
+export default function Dashboard(){return <main className="p-6 space-y-6"><h1 className="text-3xl font-bold">Civic Wallet Dashboard</h1><section className="grid md:grid-cols-3 gap-4">{cards.map(c=><div key={c} className="glass rounded-2xl p-5"><p className="text-slate-300">{c}</p><p className="text-3xl mt-3 font-semibold">92</p></div>)}</section><UploadDropzone/><section className="glass rounded-2xl p-5"><h2>AI Insights</h2><p className="text-slate-300 mt-2">Your profile shows strong consistency across verified civic events.</p></section></main>}
